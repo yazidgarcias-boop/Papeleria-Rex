@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2d3e50;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  background: #34495e;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #3d566e;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.productos div {
+  margin: 5px 0;
+}
+
+.muted {
+  color: gray;
+  font-style: italic;
+}

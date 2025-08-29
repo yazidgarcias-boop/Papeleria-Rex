@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papelería Rex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Papelería Rex</h2>
+    <ul>
+      <li><button onclick="showSection('dibujo')">Materiales de Dibujo</button></li>
+      <li><button onclick="showSection('cuadernos')">Cuadernos</button></li>
+      <li><button onclick="showSection('monografias')">Monografías</button></li>
+      <li><button onclick="showSection('papel')">Papel Extendido</button></li>
+      <li><button onclick="showSection('estructuras')">Estructuras</button></li>
+      <li><button onclick="showSection('servicios')">Servicios</button></li>
+      <li><button onclick="showSection('contacto')">Contáctanos</button></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <section id="dibujo" class="section">
+      <h3>Materiales de Dibujo</h3>
+      <div id="productos-dibujo" class="productos"></div>
+      <button onclick="agregarProducto('dibujo')">Agregar Producto</button>
+    </section>
+
+    <section id="cuadernos" class="section">
+      <h3>Cuadernos</h3>
+      <div id="productos-cuadernos" class="productos"></div>
+      <button onclick="agregarProducto('cuadernos')">Agregar Producto</button>
+    </section>
+
+    <section id="monografias" class="section">
+      <h3>Monografías</h3>
+      <div id="productos-monografias" class="productos"></div>
+      <button onclick="agregarProducto('monografias')">Agregar Producto</button>
+    </section>
+
+    <section id="papel" class="section">
+      <h3>Papel Extendido</h3>
+      <div id="productos-papel" class="productos"></div>
+      <button onclick="agregarProducto('papel')">Agregar Producto</button>
+    </section>
+
+    <section id="estructuras" class="section">
+      <h3>Estructuras</h3>
+      <div id="productos-estructuras" class="productos"></div>
+      <button onclick="agregarProducto('estructuras')">Agregar Producto</button>
+    </section>
+
+    <section id="servicios" class="section">
+      <h3>Servicios</h3>
+      <div id="productos-servicios" class="productos"></div>
+      <button onclick="agregarProducto('servicios')">Agregar Producto</button>
+    </section>
+
+    <section id="contacto" class="section">
+      <h3>Contáctanos</h3>
+      <div id="mapa">Ubicación del negocio</div>
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="email" id="email" placeholder="Correo">
+      <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+      <button onclick="guardarContacto()">Guardar</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
