@@ -1,2 +1,2 @@
-# WWW.Papeleria-Rex.COM
+# Papeleria-Rex.GITHUB.IO
 papeleria 
