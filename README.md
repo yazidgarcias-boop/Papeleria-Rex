@@ -1,2 +1,2 @@
-# Papeleria-Rex.GITHUB.IO
+# Papeleria-Rex
 papeleria 
